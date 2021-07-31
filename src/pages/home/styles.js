@@ -5,8 +5,9 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 1rem;
 
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     
     background: linear-gradient(75deg, #000000 , #04101A, #000000, #04101A);
@@ -26,7 +27,7 @@ export const Container = styled.div`
     }
     div{
         width: 65%;
-        min-width: 320px;
+        min-width: 270px;
 
         h1{
             width: 100%;

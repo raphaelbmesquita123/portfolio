@@ -1,11 +1,9 @@
 import React from 'react'
-import { Menu } from '../../components/menu/menu'
 import { Container } from './styles'
 
 export function Home(){
     return (
         <Container>
-            <Menu />
             <div>
                 <h1>Hello! I'm <span>Raphael Mesquita</span> </h1>
                 <h3>Passionate for new experiences and challenges that can change my life</h3>
