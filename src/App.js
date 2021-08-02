@@ -1,27 +1,29 @@
 import React,{ useState } from 'react'
 
 import { GlobalStyle } from './styles/globalStyles'
-import { Container, Carousel,Menu } from './styles/styles'
+import { AppContainer, Container, Carousel, Menu } from './styles/styles'
 
 import { Home } from './pages/home/home'
 import { Portfolio } from './pages/portfolio/Portfolio';
+import { Contact } from './pages/contact/contact';
+
 
 function App() {
   const [ menu, setMenu ] = useState(1)
   return (
-    <div>
+    <AppContainer>
+
       <GlobalStyle />
-      
       <Menu>
         <ul>
           <li onClick={() => setMenu(1)}>
-              <p style={{ color: menu === 1 ? 'var(--black-70)' : 'white' }}>Home </p>
+              <p style={{ color: menu === 1 ? 'var(--black-50)' : 'white' }}>Home </p>
           </li>
           <li onClick={() => setMenu(2)}>
-              <p style={{ color: menu === 2 ? 'var(--black-70)' : 'white' }}>Portfolio</p>
+              <p style={{ color: menu === 2 ? 'var(--black-50)' : 'white' }}>Portfolio</p>
           </li>
           <li onClick={() => setMenu(3)}>
-            <p style={{ color: menu === 3 ? 'var(--black-70)' : 'white' }}>Contact</p>
+            <p style={{ color: menu === 3 ? 'var(--black-50)' : 'white' }}>Contact</p>
           </li>
         </ul>
       </Menu>
@@ -29,9 +31,15 @@ function App() {
         <Carousel style={{ left: menu === 1 ? '0' : menu === 2 ? '-100%' : '-200%'}}>
           <Home/>
           <Portfolio />
+          <Contact />
         </Carousel>
       </Container>
-    </div>
+
+        <strong style={{ width: menu === 1 ? '2.5rem' : menu === 2 ? '9.4rem' : '16.5rem' }}>
+
+          <span></span>
+        </strong>
+    </AppContainer>
   );
 }
 
