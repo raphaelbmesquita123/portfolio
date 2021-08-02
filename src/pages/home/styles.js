@@ -1,12 +1,11 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 1rem;
-
     width: 100vw;
     height: 100vh;
     
@@ -21,6 +20,7 @@ export const Container = styled.div`
     background-size: 1100% 300%;
     animation: colors 10s ease-in-out infinite;
     color: white;
+
     @keyframes colors{ 
         0%{
         background-position: 0% 50%;
@@ -33,9 +33,10 @@ export const Container = styled.div`
         }
     }
 
+    
     div{
         width: 65%;
-        min-width: 270px;
+        min-width: 290px;
 
         h1{
             width: 100%;
@@ -54,13 +55,14 @@ export const Container = styled.div`
         p{
             margin-top: 1rem;
             text-align: justify;
+            color: var(--black-70);
+            letter-spacing: 1px;
+            line-height: 1.2rem;
         }
         div{
             display: flex;
-            /* justify-content: center; */
             align-items: center;
             flex-wrap: wrap;
-            /* background: orange; */
             width: 100%;
             img{
                 padding: 0.5rem;
@@ -74,6 +76,34 @@ export const Container = styled.div`
 
         }
 
+        @media (max-width: 480px){
+            h1{
+                margin-top: 2rem;
+            }
+        }
+
+    }
+
+    strong{
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: 30%;
+        background-color: var(--black-70);
+        right: 0;
+        bottom: 50px;
+
+        span{
+            position: absolute;
+            content: '';
+            height: 3px;
+            width: 10px;
+            height: 10px;
+            left: -10px;
+            bottom: -4.5px;
+            border-radius: 100%;
+            background-color: var(--black-70);
+        }
     }
 `
     

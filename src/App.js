@@ -15,16 +15,13 @@ function App() {
       <Menu>
         <ul>
           <li onClick={() => setMenu(1)}>
-              <p style={{ }}>Home </p>
-              <span style={{ top: menu === 1 ? 0 : -100}}>Home</span>
+              <p style={{ color: menu === 1 ? 'var(--black-70)' : 'white' }}>Home </p>
           </li>
           <li onClick={() => setMenu(2)}>
-              Portfolio
-              <span style={{ top: menu === 2 ? 0 : -100}}>Portfolio</span>
+              <p style={{ color: menu === 2 ? 'var(--black-70)' : 'white' }}>Portfolio</p>
           </li>
           <li onClick={() => setMenu(3)}>
-              Contact
-              <span style={{ top: menu === 3 ? 0 : -100}}>Contact</span>
+            <p style={{ color: menu === 3 ? 'var(--black-70)' : 'white' }}>Contact</p>
           </li>
         </ul>
       </Menu>
