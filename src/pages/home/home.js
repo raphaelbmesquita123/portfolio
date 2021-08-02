@@ -9,6 +9,14 @@ export function Home(){
                 <h3>Passionate for new experiences and challenges that can change my life</h3>
                 <p>iqwbdi vwiqhd iqecb qocbiqc ajkdbc ipqenc acb vcdsb kwcvdiusbcasdvci bquoebc whvodalbc iwebfk clbeiwo dckbwdvbwoevbob vwiudsg cobwefoucbi qvwoueid bvuowe</p>
                 <h3><span>EXPERTISE IN WEB APPLICATION</span></h3>
+                <div>
+                    <img src="./javaScript.png" alt="JavaScript" />
+                    <img src="./react.png" alt="react" />
+                    <img src="./next.png" alt="next" />
+                    <img src="./nodeJs.png" alt="nodeJs" />
+                    <img src="./mongoDB.png" alt="mongoDB" />
+                    <img src="./fireBase.png" alt="Firebase" />
+                </div>
             </div>
         </Container>
     )

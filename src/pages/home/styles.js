@@ -10,9 +10,16 @@ export const Container = styled.div`
     width: 100vw;
     height: 100vh;
     
-    background: linear-gradient(75deg, #000000 , #04101A, #000000, #04101A);
-    background-size: 400% 100%;
-    animation: colors 5s ease-in-out infinite;
+    background: linear-gradient(
+        90deg, 
+        var(--black-100), 
+        var(--blue-100), 
+        var(--black-100),
+        var(--red-100),
+        var(--black-100)
+        );
+    background-size: 1100% 300%;
+    animation: colors 10s ease-in-out infinite;
     color: white;
     @keyframes colors{ 
         0%{
@@ -25,6 +32,7 @@ export const Container = styled.div`
         background-position: 0% 50%;
         }
     }
+
     div{
         width: 65%;
         min-width: 270px;
@@ -33,19 +41,37 @@ export const Container = styled.div`
             width: 100%;
             font-size: auto;
             span{
-                color: red;
+                color: var(--red-70);
             }
         }
         h3{
             margin-top: 1rem;
             span{
-                color: red;
+                color: var(--red-70);
             }
             text-align: justify;
         }
         p{
             margin-top: 1rem;
             text-align: justify;
+        }
+        div{
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            flex-wrap: wrap;
+            /* background: orange; */
+            width: 100%;
+            img{
+                padding: 0.5rem;
+                height: 3rem;
+
+                &:first-child{
+                    padding-left: 0;
+                }
+
+            }
+
         }
 
     }

@@ -31,11 +31,17 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     :root{
-        --blue: #0059A5;
-        --red: #E31E24;
-        --gray: #F3F3F3;
-        --gray-200: #dadada;
-        --gray-500: #999999;
-        --white: #ffffff
+        --black-100: #000000;
+        --black-70: #999999;
+        --black-50: #dadada;
+        --black-30: #F3F3F3;
+        --white: #ffffff;
+        --blue-100: #002240;
+        --blue-70: #00417A;
+        --blue-50: #0059A5;
+        --blue-50: #41DCEA;
+        --red-100: #622124;
+        --red-70: #D31E41;
+        --red-50: #E94C6D;
     }
 `
