@@ -10,7 +10,7 @@ export const Container = styled.div`
     height: 100vh;
     
     background: linear-gradient(
-        90deg, 
+        45deg, 
         var(--black-100), 
         var(--blue-100), 
         var(--black-100),
@@ -41,13 +41,15 @@ export const Container = styled.div`
         h1{
             width: 100%;
             font-size: auto;
-            margin-top: 3rem;
+            margin-top: 1rem;
+            color: var(--black-50);
             span{
                 color: var(--red-70);
             }
         }
         h3{
             margin-top: 1rem;
+            color: var(--black-50);
             span{
                 color: var(--red-70);
             }
@@ -59,6 +61,10 @@ export const Container = styled.div`
             color: var(--black-70);
             letter-spacing: 1px;
             line-height: 1.4rem;
+            a{
+                text-decoration: none;
+                color: var(--red-70);
+            }
         }
         div{
             display: flex;

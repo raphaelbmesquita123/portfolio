@@ -7,7 +7,7 @@ export function Home(){
             <div>
                 <h1>Hello! I'm <span>Raphael Mesquita</span> </h1>
                 <h3>Passionate for new experiences and challenges that can change my life</h3>
-                <p>I'm a Software Engineer focused on Web development, I'm currently working on a project for Texas Steakout based in Limerick Ireland, working as a freelancer, finishing my degree in Analyzes and Systems Development at Unigran, and a student from Rocketseat which is one of the best schools for Software Engineer in Brazil, at the moment I have done the full Bootcamp called Ignite (ReactJs - NectJs) and now I currently studying the NodeJs Bootcamp.</p>
+                <p>I'm a Software Engineer focused on Web development, I'm currently working on a project for <a href="https://texassteakout.ie/" target="_blank" rel="noopener noreferrer">Texas Steakout</a> based in Limerick Ireland, working as a freelancer, finishing my degree in Analyzes and Systems Development at <a href="https://www.unigraneuropa.com/" target="_blank" rel="noopener noreferrer">Unigran</a>, and a student from <a href="https://rocketseat.com.br/" target="_blank" rel="noopener noreferrer">Rocketseat</a> which is one of the best schools for Software Engineer in Brazil, at the moment I have done the full Bootcamp called Ignite (ReactJs - NectJs) and now I currently studying the NodeJs Bootcamp.</p>
                 <h3><span>EXPERTISE IN WEB APPLICATION</span></h3>
                 <div>
                     <img src="./javaScript.png" alt="JavaScript" />
