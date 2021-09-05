@@ -30,7 +30,7 @@ export function Portfolio() {
               imageTecnology='./react.png'
               />
             <ProjectDisplay
-              projectImage='pokemonPage.png'
+              projectImage='pokemonpage.png'
               name='Pokemon Page'
               description='Do you remember Pokemon? I would love to know about this website when I was 15 hahahahaha, created with ReactJs, this application allows you to choose the pokemon`s card by its type and also search for the card by its name, add to the basket and buy it'
               projectLink='https://pokemon-shop-cipag78ms-raphaelbmesquita123.vercel.app/'
