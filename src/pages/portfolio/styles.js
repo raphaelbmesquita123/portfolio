@@ -7,7 +7,7 @@ export const Container = styled.div`
     height: 100vh;
     background: var(--black-100);
     main{
-        margin-top: 7rem;
+        margin-top: 6rem;
         padding: 0 2rem;
 
         h1{
@@ -24,7 +24,6 @@ export const Container = styled.div`
             display: grid;
             height: calc(100vh - 250px);
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            /* grid-template-rows: 200px ; */
             gap: 1rem;
             margin-top: 1rem;
             overflow-y: scroll;

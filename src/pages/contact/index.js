@@ -1,4 +1,6 @@
 import React from 'react'
+
+//styles
 import { Container } from './styles'
 
 export function Contact() {

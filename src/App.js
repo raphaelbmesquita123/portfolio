@@ -1,12 +1,13 @@
 import React,{ useState } from 'react'
 
+//pages
+import { Home } from './pages/home'
+import { Portfolio } from './pages/portfolio';
+import { Contact } from './pages/contact';
+
+//styles
 import { GlobalStyle } from './styles/globalStyles'
 import { AppContainer, Container, Carousel, Menu } from './styles/styles'
-
-import { Home } from './pages/home/home'
-import { Portfolio } from './pages/portfolio/Portfolio';
-import { Contact } from './pages/contact/contact';
-
 
 function App() {
   const [ menu, setMenu ] = useState(1)
