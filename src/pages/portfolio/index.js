@@ -28,27 +28,31 @@ export function Portfolio() {
               description='This is a Fullstack application created with ReactJs, NodeJs, Strapi, and MongoDb, you can create your account, log in, buy a course, and at the end of your course a certificate will be available for download.** Application not finished yet **'
               projectLink='https://web-courses-frontend.herokuapp.com/'
               imageTecnology='./react.png'
-              />
+              githubLink='https://github.com/raphaelbmesquita123/testcourses'
+            />
             <ProjectDisplay
               projectImage='pokemonpage.png'
               name='Pokemon Page'
               description='Do you remember Pokemon? I would love to know about this website when I was 15 hahahahaha, created with ReactJs, this application allows you to choose the pokemon`s card by its type and also search for the card by its name, add to the basket and buy it'
               projectLink='https://pokemon-shop-cipag78ms-raphaelbmesquita123.vercel.app/'
               imageTecnology='./react.png'
-            />
+              githubLink='https://github.com/raphaelbmesquita123/pokemon-shop'
+              />
             <ProjectDisplay
               projectImage='graficaMesquita.png'
               name='Gráfica e Editora Mesquita'
               description='Single page website created with ReactJs and Emailjs to receive the messages from the user, the designer was created by me and at the moment I am just waiting for the client to send me rest of the information to finish it. ** Application not finished yet **'
               projectLink='https://graficamesquita.vercel.app/'
               imageTecnology='./react.png'
-            />
+              githubLink='https://github.com/raphaelbmesquita123/graficamesquita'
+              />
             <ProjectDisplay
               projectImage='firstProject.png'
               name='50 Projects 50 Days'
               description='The first project you never forget, 50 Projects in 50 Days, is the name of the course that I have done from Udemy, on this application you can the most relevant projects, with HTML, CSS, and JavaScript, this course was the start of everything.'
               projectLink='https://raphaelbmesquita123.github.io/RaphaelMesquita/'
-            />
+              githubLink='https://github.com/raphaelbmesquita123/RaphaelMesquita'
+              />
           </span>
         </main>
       </AnimateOnChange>

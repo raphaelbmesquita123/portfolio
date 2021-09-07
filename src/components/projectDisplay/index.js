@@ -9,6 +9,7 @@ export function ProjectDisplay({
   projectLink,
   imageTecnology,
   description,
+  githubLink,
 }) {
   const [showDescription, setShowDescription] = useState(false)
   return (
@@ -28,7 +29,12 @@ export function ProjectDisplay({
             Open project
           </a>
         </div>
-        {imageTecnology && <img src={imageTecnology} alt='tecnology' />}
+        <section>
+          <a href={githubLink} rel='noopener noreferrer' target='_blank'>
+            <img src='./github.png' alt='tecnology' />
+          </a>
+          {imageTecnology && <img src={imageTecnology} alt='tecnology' />}
+        </section>
       </div>
     </Container>
   )

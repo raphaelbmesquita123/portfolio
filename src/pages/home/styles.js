@@ -33,11 +33,10 @@ export const Container = styled.div`
     }
   }
 
-  div {
+  section {
     width: 65%;
     min-width: 290px;
     z-index: 1;
-
     h1 {
       width: 100%;
       font-size: auto;
@@ -60,6 +59,11 @@ export const Container = styled.div`
       color: var(--black-70);
       letter-spacing: 1px;
       line-height: 1.4rem;
+      max-height: 11rem;
+      overflow: scroll;
+      &::-webkit-scrollbar {
+        display: none;
+      }
       a {
         text-decoration: none;
         color: var(--red-70);
@@ -70,6 +74,7 @@ export const Container = styled.div`
       align-items: center;
       flex-wrap: wrap;
       width: 100%;
+      margin-top: 1rem;
       img {
         padding: 0.5rem;
         height: 3rem;

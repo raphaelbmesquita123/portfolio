@@ -17,33 +17,31 @@ export const Container = styled.div`
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      transition: all 0.5s; 
+      transition: all 0.5s;
       color: var(--black-70);
-      background: rgba(0,0,0,0.8);
+      background: rgba(0, 0, 0, 0.8);
       width: 100%;
       height: 100%;
       padding: 1rem;
-      text-align:justify;
+      text-align: justify;
       font-size: 0.8rem;
       letter-spacing: 1px;
       line-height: 1.3rem;
     }
-    h2{
+    h2 {
       position: absolute;
-      bottom:1rem;
+      bottom: 1rem;
       right: 1rem;
       color: white;
       cursor: pointer;
       font-size: 0.7rem;
-      z-index:2;
+      z-index: 2;
 
-      &:hover{
+      &:hover {
         color: var(--red-70);
       }
     }
   }
-
-
 
   div {
     display: flex;
