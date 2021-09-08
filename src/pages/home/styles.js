@@ -50,6 +50,7 @@ export const Container = styled.div`
       color: var(--black-50);
       span {
         color: var(--red-70);
+        text-transform: uppercase;
       }
       text-align: justify;
     }

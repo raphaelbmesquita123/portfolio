@@ -47,12 +47,10 @@ export function Home() {
             >
               Rocketseat
             </a>{' '}
-            which is one of the best schools for Software Engineer in Brazil, at
-            the moment I have done the full Bootcamp called Ignite (ReactJs -
-            NectJs) and now I currently studying the NodeJs Bootcamp.
+            which is one of the best schools for Software Engineer in Brazil.
           </p>
           <h3>
-            <span>EXPERTISE IN WEB APPLICATION</span>
+            <span>Expertise in web application</span>
           </h3>
           <div>
             <img src='./javaScript.png' alt='JavaScript' />

@@ -59,7 +59,7 @@ export const Container = styled.div`
             }
           }
           textarea {
-            height: 10rem;
+            height: 6rem;
           }
         }
 
