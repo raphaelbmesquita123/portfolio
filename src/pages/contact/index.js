@@ -1,6 +1,7 @@
 import React from 'react'
-import { FaDownload, FaGithub, FaInstagram, FaMouse } from 'react-icons/fa'
+import { FaDownload, FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import emailjs from 'emailjs-com'
+import { toast } from 'react-toastify'
 
 //styles
 import { Container, DownloadContainer } from './styles'
@@ -10,17 +11,17 @@ export function Contact() {
     e.preventDefault()
     emailjs
       .sendForm(
-        'service_xfskimn',
-        'template_a3j93kc',
+        process.env.REACT_APP_EMAILJS_SERVICE,
+        process.env.REACT_APP_TEMPLATE,
         e.target,
-        'user_b3vLK4nmsJDCovCRtPpoB'
+        process.env.REACT_APP_USER
       )
       .then(
         (result) => {
-          console.log(result.text)
+          toast.info('Your message was sent successfully')
         },
         (error) => {
-          console.log(error.text)
+          toast.info('Sorry we had some problems, please try again later')
         }
       )
   }
@@ -35,7 +36,6 @@ export function Contact() {
         </main>
 
         <section>
-          
           <h1>Contact Me</h1>
           <form onSubmit={sendEmail}>
             <div>
@@ -58,14 +58,26 @@ export function Contact() {
           </form>
 
           <span>
-            <a href='/' target='_blank'>
+            <a
+              href='https://github.com/raphaelbmesquita123'
+              target='_blank'
+              rel='noreferrer'
+            >
               <FaGithub />
             </a>
-            <a href='/' target='_blank'>
+            <a
+              href='https://www.instagram.com/raphaelbmesquita/'
+              target='_blank'
+              rel='noreferrer'
+            >
               <FaInstagram />
             </a>
-            <a href='/' target='_blank'>
-              <FaMouse />
+            <a
+              href='https://www.linkedin.com/in/raphael-mesquita-/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <FaLinkedinIn />
             </a>
           </span>
 

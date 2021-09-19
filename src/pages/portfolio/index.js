@@ -37,7 +37,15 @@ export function Portfolio() {
               projectLink='https://pokemon-shop-cipag78ms-raphaelbmesquita123.vercel.app/'
               imageTecnology='./react.png'
               githubLink='https://github.com/raphaelbmesquita123/pokemon-shop'
-              />
+            />
+            <ProjectDisplay
+              projectImage='upFI.png'
+              name='upFi'
+              description='This application was the callenge 7 from Rocketseat Bootcamp'
+              projectLink='https://ignite-challenge-07.vercel.app/'
+              imageTecnology='./next.png'
+              githubLink='https://github.com/raphaelbmesquita123/ignite-challenge-07'
+            />
             <ProjectDisplay
               projectImage='graficaMesquita.png'
               name='Gráfica e Editora Mesquita'
@@ -45,14 +53,14 @@ export function Portfolio() {
               projectLink='https://graficamesquita.vercel.app/'
               imageTecnology='./react.png'
               githubLink='https://github.com/raphaelbmesquita123/graficamesquita'
-              />
+            />
             <ProjectDisplay
               projectImage='firstProject.png'
               name='50 Projects 50 Days'
               description='The first project you never forget, 50 Projects in 50 Days, is the name of the course that I have done from Udemy, on this application you can the most relevant projects, with HTML, CSS, and JavaScript, this course was the start of everything.'
               projectLink='https://raphaelbmesquita123.github.io/RaphaelMesquita/'
               githubLink='https://github.com/raphaelbmesquita123/RaphaelMesquita'
-              />
+            />
           </span>
         </main>
       </AnimateOnChange>
