@@ -6,6 +6,9 @@ import { toast } from 'react-toastify'
 //styles
 import { Container, DownloadContainer } from './styles'
 
+//images
+import RaphaelCv from '../../images/raphaelCv.png'
+
 export function Contact() {
   function sendEmail(e) {
     e.preventDefault()
@@ -29,7 +32,7 @@ export function Contact() {
     <Container>
       <div>
         <main>
-          <img src='/raphaelCv.png' alt='Raphael Cv' />
+          <img src={RaphaelCv} alt='Raphael Cv' />
           <a href='/RaphaelCv.pdf' target='_blank'>
             <FaDownload />
           </a>

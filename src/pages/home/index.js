@@ -4,6 +4,15 @@ import { AnimateOnChange } from 'react-animation'
 //styles
 import { Container } from './styles'
 
+//images
+import ReactJs from '../../images/react.png'
+import FireBase from '../../images/fireBase.png'
+import GitHub from '../../images/github.png'
+import MongoDB from '../../images/mongoDB.png'
+import NextJs from '../../images/next.png'
+import NodeJs from '../../images/nodeJs.png'
+import JavaScript from '../../images/javaScript.png'
+
 export function Home() {
   return (
     <Container>
@@ -53,12 +62,13 @@ export function Home() {
             <span>Expertise in web application</span>
           </h3>
           <div>
-            <img src='./javaScript.png' alt='JavaScript' />
-            <img src='./react.png' alt='react' />
-            <img src='./next.png' alt='next' />
-            <img src='./nodeJs.png' alt='nodeJs' />
-            <img src='./mongoDB.png' alt='mongoDB' />
-            <img src='./fireBase.png' alt='Firebase' />
+            <img src={JavaScript} alt='JavaScript' />
+            <img src={ReactJs} alt='react' />
+            <img src={NextJs} alt='next' />
+            <img src={NodeJs} alt='nodeJs' />
+            <img src={MongoDB} alt='mongoDB' />
+            <img src={FireBase} alt='Firebase' />
+            <img src={GitHub} alt='Github' />
           </div>
         </AnimateOnChange>
       </section>

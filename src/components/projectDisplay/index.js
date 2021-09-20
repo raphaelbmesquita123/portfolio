@@ -3,6 +3,9 @@ import React, { useState } from 'react'
 //styles
 import { Container } from './styles'
 
+//images
+import Github from '../../images/github.png'
+
 export function ProjectDisplay({
   projectImage,
   name,
@@ -31,7 +34,7 @@ export function ProjectDisplay({
         </div>
         <section>
           <a href={githubLink} rel='noopener noreferrer' target='_blank'>
-            <img src='./github.png' alt='tecnology' />
+            <img src={Github} alt='tecnology' />
           </a>
           {imageTecnology && <img src={imageTecnology} alt='tecnology' />}
         </section>
